@@ -18,7 +18,7 @@ class TentorFactory extends Factory
     {
         return [
             'nama_tentor' => $this->faker->name(),
-            'mata_pelajaran' => $this->faker->randomElement(['Matematika', 'Fisika', 'Biologi', 'B.Inggris']),
+            'mata_pelajaran' => $this->faker->randomElement(['Matematika', 'Fisika', 'Biologi', 'B.Inggris' , 'Kimia', 'Ekonomi']),
             'bio' => $this->faker->sentence(),
         ];
     }
